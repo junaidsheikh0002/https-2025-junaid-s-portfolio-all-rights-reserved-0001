@@ -1,0 +1,53 @@
+/* Basic CSS reset and styling */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header,
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.portfolio,
+.landing-page {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.portfolio-img,
+.landing-img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
